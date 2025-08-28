@@ -8,19 +8,21 @@ This project requires:
 ## Compilation
 
 ```bash
-mkdir build && cd build
-cmake ..
+cmake .
 make
+```
 
-# Usage
+## Usage
 
+```bash
 ./adRRT -m map/random-32-32-20.map -s instance/random-32-32-20-even-1.scen -o result.txt -n 100 -t 60 -r 42 -d 2
-
+```
 
 ## Help
 
+```bash
 ./adRRT --help
-
+```
 
 # References
 
